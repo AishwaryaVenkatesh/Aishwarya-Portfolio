@@ -39,6 +39,10 @@ p {
   line-height: 1.5;
 }
 
+img {
+  width: 500px;
+  height: 300px;
+}
 .block-1 {
   margin: 5% 5px !important;
 }
@@ -78,6 +82,17 @@ p {
   border: 1px solid var(--primary-color);
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border: none;
 }
 
 .primary-link {
